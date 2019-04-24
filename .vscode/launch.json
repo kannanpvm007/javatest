@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T8",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.T8",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Emp",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Emp",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Employeee_ch",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Employeee_ch",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T13",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.T13",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T12",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.T12",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Seven",
+            "request": "launch",
+            "mainClass": "com.kgisl.test1.Seven",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex7",
+            "request": "launch",
+            "mainClass": "com.kgisl.test1.ex7",
+            "projectName": "test1"
+        }
+    ]
+}
