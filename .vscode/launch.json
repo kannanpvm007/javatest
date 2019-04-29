@@ -2,6 +2,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Seven",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Seven",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ComparSort",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.ComparSort",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Crud",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Crud",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T2",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.T2",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Dupli",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Dupli",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Two",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Two",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Child",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Child",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - emp1",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.emp1",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - T8",
             "request": "launch",
             "mainClass": "com.kgisl.qs1.T8",

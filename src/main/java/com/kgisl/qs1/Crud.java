@@ -16,7 +16,7 @@ CRUD operations in ArrayList
 
 */
 
-public class Employee {
+public class Crud {
 
     static ArrayList<Operation> slist = new ArrayList<Operation>();
 

@@ -1,6 +1,10 @@
 package com.kgisl.qs1;
 
 import static java.util.Arrays.deepToString;
+/*  
+Print the array in simplest way
+String[][] deepArray = new String[][] {{"John", "Mary"}, {"Alice", "Bob"}};
+*/
 
 
 public class T12 {   

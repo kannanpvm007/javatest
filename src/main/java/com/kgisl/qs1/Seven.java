@@ -42,21 +42,42 @@ public class Seven {
 
         } else if (unit >= 200 && unit < 400) {
 
-            float q = 1.80f;
+            float q = 1.50f;
             float p = unit * q;
             if (p > 400) {
                 float dis = p - (p * 15 / 100);
                 System.out.println("Customer IDNO :" + id + "\n" + "Customer Name :" + name + "\n" + "unit Consumed :"
                         + unit + "\n" + " Amount Charges @  Rs." + p + "unit :" + q + "\n" +
 
-                        " Net Amount Paid By the Customer :" + dis);
+                        " Net Amount Paid By the Customer :" + dis+"\n U have 15% discount happy day!!!");
 
             } else {
                 System.out.println("Customer IDNO :" + id + "\n" + "Customer Name :" + name + "\n" + "unit Consumed :"
                         + unit + "\n" + " Amount Charges @  Rs." + p + "unit :" + q + "\n" +
 
-                        " Net Amount Paid By the Customer :" + p + "\n U have 15% discount happy day!!!");
-            }
+                        " Net Amount Paid By the Customer :" + p );
+            }}
+
+
+            else if (unit >= 400 && unit < 600) {
+
+                float q = 1.80f;
+                float p = unit * q;
+                if (p > 400) {
+                    float dis = p - (p * 15 / 100);
+                    System.out.println("Customer IDNO :" + id + "\n" + "Customer Name :" + name + "\n" + "unit Consumed :"
+                            + unit + "\n" + " Amount Charges @  Rs." + p + "unit :" + q + "\n" +
+    
+                            " Net Amount Paid By the Customer :" + dis+"\n U have 15% discount happy day!!!");
+    
+                } else {
+                    System.out.println("Customer IDNO :" + id + "\n" + "Customer Name :" + name + "\n" + "unit Consumed :"
+                            + unit + "\n" + " Amount Charges @  Rs." + p + "unit :" + q + "\n" +
+    
+                            " Net Amount Paid By the Customer :" + p + "\n U have 15% discount happy day!!!");
+                }
+         
+
 
         } else if (unit > 600) {
             float q = 2f;
