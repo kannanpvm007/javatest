@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Write",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.Write",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Seven",
             "request": "launch",
             "mainClass": "com.kgisl.qs1.Seven",
