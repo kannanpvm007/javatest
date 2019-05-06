@@ -2,6 +2,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - enum1",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.enum_ex.enum1",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Fill",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.Fill",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WriteExcelFile",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.WriteExcelFile",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - XLSReader",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.XLSReader",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - w1",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.w1",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - READcsv",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.READcsv",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Writ1",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.Writ1",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReadAll",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.ReadAll",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Csv",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.Csv",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SreamTest",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.SreamTest",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Input",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.Input",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IterationDemo",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.IterationDemo",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Write",
             "request": "launch",
             "mainClass": "com.kgisl.qs1.Write",

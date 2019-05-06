@@ -18,8 +18,11 @@ public class FileRead {
         File hi = new File("D:/Kannan/test1/src/main/java/com/kgisl/qs1/hi.txt");
        
         Scanner sc = new Scanner(hi);
-        sc.useDelimiter("\\Z");
+        //sc.useDelimiter("\\Z");
         System.out.print(sc.next());
+
+
+        
         
         
     }
