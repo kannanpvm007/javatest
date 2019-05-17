@@ -19,8 +19,7 @@ public class Csv {
 
 	public static void main(String[] args) throws IOException {
 
-		CSVReader reader = new CSVReader(
-	new FileReader("C:\\Users\\kannan.r\\Desktop\\RW\\ok.csv"), '|');
+		CSVReader reader = new CSVReader(new FileReader("C:\\Users\\kannan.r\\Desktop\\RW\\ok.csv"), '|');
 
 		List<Employee> emps = new ArrayList<Employee>();
 

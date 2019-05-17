@@ -60,8 +60,7 @@ public class Fil {
         
         SheetConditionalFormatting sheetCF = sheet.getSheetConditionalFormatting();
   
-        ConditionalFormattingRule rule = sheetCF.createConditionalFormattingRule(
-        	    "MOD(ROW() - 1, 1) = 0");
+        ConditionalFormattingRule rule = sheetCF.createConditionalFormattingRule("MOD(ROW() - 1, 1) = 0");
                	     	
         PatternFormatting fill = rule.createPatternFormatting();
         fill.setFillBackgroundColor(IndexedColors.GREY_40_PERCENT.index);
@@ -87,7 +86,7 @@ public class Fil {
         sheetCF.addConditionalFormatting(regions1,rule1);
 
         // Write the output to a file
-        FileOutputStream fileOut = new FileOutputStream("D:\\Kannan\\test1\\Apple\\Employee\\colors1.xlsx");
+        FileOutputStream fileOut = new FileOutputStream("D:\\Kannan\\test1\\Apple\\Employee\\colors.xlsx");
         wb.write(fileOut);
         fileOut.close();
         System.out.println("Successfully Created workbook");

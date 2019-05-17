@@ -18,7 +18,7 @@ class Input {
 
             String ss, s;
             while ((s = reader.readLine()) != null) {
-                //System.out.println(s);
+                System.out.println(s);
             } 
             reader.close();
 

@@ -2,6 +2,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SendMail",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.dbex.SendMail",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - two",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.dbex.two",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SqlDb",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.dbex.SqlDb",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - one",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.dbex.one",
+            "projectName": "qs1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - one",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.dbex.one",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UpdateSQL",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.dbex.UpdateSQL",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReadFolder",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.ReadFolder",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CsvTODB",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.dbex.datasource.CsvTODB",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Fil",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.Fil",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - datasource",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.dbex.datasource.datasource",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SqlDb",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.dbex.SqlDb",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReadAndWrite",
+            "request": "launch",
+            "mainClass": "com.kgisl.qs1.map.ReadAndWrite",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - enum1",
             "request": "launch",
             "mainClass": "com.kgisl.qs1.enum_ex.enum1",

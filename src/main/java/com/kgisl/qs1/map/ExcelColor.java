@@ -1,4 +1,5 @@
 package com.kgisl.qs1.map;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Map;
@@ -61,43 +62,32 @@ public class ExcelColor {
         }
         SheetConditionalFormatting sheetCF = sheet.getSheetConditionalFormatting();
 
+        // //Condition 1: Cell Value Is greater than 70 (Blue Fill)
+        ConditionalFormattingRule rule1 = sheetCF.createConditionalFormattingRule(ComparisonOperator.GT, "70");
+        PatternFormatting fill1 = rule1.createPatternFormatting();
+        fill1.setFillBackgroundColor(IndexedColors.SKY_BLUE.index);
+        fill1.setFillPattern(PatternFormatting.BIG_SPOTS);
 
-// //Condition 1: Cell Value Is   greater than  70   (Blue Fill)
-       ConditionalFormattingRule rule1 = sheetCF.createConditionalFormattingRule(ComparisonOperator.GT, "70");
-       PatternFormatting fill1 = rule1.createPatternFormatting();
-       fill1.setFillBackgroundColor(IndexedColors.BLUE.index);
-       fill1.setFillPattern(PatternFormatting.SOLID_FOREGROUND);
+        // Condition 2: Cell Value Is less than 50 (Green Fill)
 
-       //Condition 2: Cell Value Is  less than      50   (Green Fill)
-
-       
-
-            ConditionalFormattingRule rule2 = sheetCF.createConditionalFormattingRule
-            (ComparisonOperator.GT, "40");
-            PatternFormatting fill2 = rule2.createPatternFormatting();
-            fill2.setFillBackgroundColor(IndexedColors.PALE_BLUE.index);
-            fill2.setFillPattern(PatternFormatting.SOLID_FOREGROUND);
-               CellRangeAddress[] reg = {
-                   CellRangeAddress.valueOf("D1:D5"),
-                   CellRangeAddress.valueOf("E1:E5"),CellRangeAddress.valueOf("F1:F5")
-            
-               };
-                 sheetCF.addConditionalFormatting(reg, rule1);
-
+        ConditionalFormattingRule rule2 = sheetCF.createConditionalFormattingRule(ComparisonOperator.GT, "40");
+        PatternFormatting fill2 = rule2.createPatternFormatting();
+        fill2.setFillBackgroundColor(IndexedColors.PALE_BLUE.index);
+        fill2.setFillPattern(PatternFormatting.SOLID_FOREGROUND);
+        CellRangeAddress[] reg = { CellRangeAddress.valueOf("D1:D5"), CellRangeAddress.valueOf("E1:E5"),
+                CellRangeAddress.valueOf("F1:F5")    };
+        sheetCF.addConditionalFormatting(reg, rule1);
 
         try {
-            FileOutputStream out = new FileOutputStream(new File("write1.xlsx"));
+            FileOutputStream out = new FileOutputStream(new File("write2.xlsx"));
             workbook.write(out);
             System.out.println("File written successfully on disk.");
-            
-               }
-               catch(Exception e){
-                   System.out.println(e);
 
-               }
-
-
+        } catch (Exception e) {
+            System.out.println(e);
 
         }
-       
+
     }
+
+}
